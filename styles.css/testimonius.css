@@ -8,9 +8,10 @@
 #testimonial-chef{
     width: 500px;
     height: auto;
+    border-radius: 80%;
 }
 #testimonials .section-subtitle{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 #testimonials-content{
     width: 50%;
