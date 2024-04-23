@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Inicio Meta tag OG-->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Biscoitos caseiro" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="O sabor que vai até você." />
+    <meta property="og:site_name" content="A Charrete." />
+    <!--Fim Meta-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css/style.css">
+    <link rel="stylesheet" href="styles.css/header.css">
+    <link rel="stylesheet" href="styles.css/home.css">
+    <link rel="stylesheet" href="styles.css/menu.css">
+    <link rel="stylesheet" href="styles.css/testimonius.css">
+    <link rel="stylesheet" href="styles.css/footer.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>A charrete</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <i id="nav-logo">A Charrete</i>
+
+            <ul id="nav-list">
+                <li class="nav-item active">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testemunhos">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui.
+            </button>
+
+            <button id="mobile-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile-menu">
+            <ul id="mobile-nav-list">
+                <li class="nav-item">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                Peça aqui.
+            </button>
+        </div>
+    </header>
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+
+
+                <h1 class="title">
+                    O sabor que vai até
+                    <span>você!</span>
+                </h1>
+
+                <p class="description">
+                    <!--Lorem ipsum, dolor sit amet consectetur adipisicing elit.-->
+
+                </p>
+                <div id="cta-buttons">
+                    <a href="#menu" class="btn-default">
+                        Ver cardápio
+                    </a>
+                    <a href="tel:+551299628-8591" id="phone-button">
+                        <button class="btn-default">
+                            <i class="fa solid fa-phone"></i>
+                        </button>
+                        (12)99628-8591
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href=""><!--Criar link para whataspp-->
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href=""><!--Criar link para whataspp-->
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href=""><!--Criar link para whataspp-->
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="banner">
+                <img src="imagem/imagemPerfil.jpg" alt="">
+            </div>
+        </section>
+        <section id="menu">
+            <h2 class="section-title">Bolachas</h2>
+            <h3 class="section-subtitle">Nossos doces especiais</h3>
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="imagem/imagem01.jpg" class="dish-image" alt="caixa de biscoitos">
+                    <h3>Biscoito c/ leite ninho</h3>
+                    <span class="dish-description">
+                        Biscoito com leite ninho confeitado com Glace Real.<br>
+                        contém 20 biscoitos.
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(40+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$30,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="imagem/imagem02.jpg" class="dish-image" alt="caixa de biscoitos">
+                    <h3>Biscoito de paçoca. </h3>
+                    <span class="dish-description">
+                        Biscoito de paçoca com<br> 10 unidades
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(40+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$ 8,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="imagem/imagem03.jpg" class="dish-image" alt="caixa de biscoitos">
+                    <h3>Lorem ipsum dolor sit amet </h3>
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(40+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="imagem/imagem04.jpg" class="dish-image" alt="caixa de biscoitos">
+                    <h3>Lorem ipsum dolor sit amet </h3>
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(40+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <img src="imagem/imagem3.jpg" id="testimonial-chef" alt="testemunios">
+            <div id="testimonials-content">
+                <h2 class="section-title">Depoimentos</h2>
+                <h3 class="section-subtitle">O que os clientes falam sobre nós</h3>
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="imagem/Suzana Reis.jpeg" class="feedback-avatar" alt="Avatar1">
+                        <div class="feedback-content">
+                            <p>Suzana Reis
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Biscoitos tão lindos que dá dó de comer mas acima de tudo são super deliciosos.
+                                Hummmm!!!"
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <img src="imagem/joaquina.jpg" class="feedback-avatar" alt="Avatar1">
+                        <div class="feedback-content">
+                            <p>Joaquina
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Os biscoitos da Viviane, são deliciosos!!
+                                Verdadeira arte, produzido com muito amor!!
+                                Indico sempre para os meus amigos!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-default">
+                    ver mais avaliações
+                </button>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="imagem/wave.svg" alt="ondulação">
+        <div id="footer-items">
+            <span id="copyright">
+                &COPY 2024 Eli Santos Developer Front End
+            </span>
+
+            <div class="social-media-buttons">
+                <a href=""><!--Criar link para whataspp-->
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="https://www.instagram.com/acharrete/" target="_blank"><!--Criar link para whataspp-->
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href=""><!--Criar link para whataspp-->
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>
